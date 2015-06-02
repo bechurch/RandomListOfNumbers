@@ -21,11 +21,11 @@ function cheekyRandomSort(min, max) {
      I decided to take the wording of 'random order' in addition to the size of the array being directly
      related to the max size of of number to be generated and created Cheeky Random Sort.
 
-     The sort take two values max and min which determine both the size of the list and the max and min size of
+     The sort takes two values max and min which determine both the size of the list and the max and min size of
      integer that can be found in the final list. The sort then will randomly select an offset the indices of an
      ordered list from min to max.
 
-     [1,2,3,4,5] with offset two becomes [4,5,1,2,3]
+     [1,2,3,4,5] with offset 2 becomes [4,5,1,2,3]
 
      NOTE: This file is intended to be a bit of a jab :P and not my final solution.
 
