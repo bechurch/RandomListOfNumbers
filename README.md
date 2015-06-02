@@ -15,6 +15,7 @@ To Run:
 Generates an ordered array with values from min to max then randomly shuffles the elements based on Durstenfelds implementation of the Fisher-Yates Shuffle (http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#The_modern_algorithm) The algorithm starts at the end of the array, randomly selects an index between its current index and the start of the array then swaps the values between it's current index and the random index.
 
 Time Complexity: O(n) as it's run time is linearly related to size of array due to one iteration
+
 Space Complexity: O(n) as it's space is linearly related to size of array due to no additional data structures needed
 
 ###2. random_stream_runner.js & random-stream.js (JavaScript Familiarity)
