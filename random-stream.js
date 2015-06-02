@@ -30,7 +30,6 @@ function RandomStream(low, high) {
      @output {ReadableStream object}
      */
     if (!(this instanceof RandomStream)) return new RandomStream(low, high);
-    if (high < low) high = low;
 
     ReadableStream.call(this, {
 

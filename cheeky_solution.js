@@ -34,9 +34,10 @@ function cheekyRandomSort(min, max) {
      @output {array} offset_array
      */
 
-    var offset_array = [];
     var length = max - min;
+    var offset_array = [];
     var offset = randomIntInc(0, length);
+
     for (var i = 0; i <= length; i++) {
         if (i + offset > length) {
             offset_array[i + offset - length - 1] = i + min;
